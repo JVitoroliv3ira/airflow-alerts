@@ -1,0 +1,58 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+.poetry/
+
+# Virtualenvs
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Editor configs
+*.swp
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter (se usar)
+.ipynb_checkpoints
+
+# Test/coverage
+coverage.*
+.tox/
+.nox/
+.cache/
+pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# MyPy, Pylint, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Logs
+*.log
+
+# Local config
+.envrc
+
